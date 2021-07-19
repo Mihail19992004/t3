@@ -1,0 +1,340 @@
+.all-photos {
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  padding-top: 1px;
+}
+.search-ico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+}
+.search-ico:hover {
+  background: grey;
+  color: white;
+}
+input {
+  background: rgba(197, 221, 232, 0.01);
+}
+.search {
+  text-align: center;
+  padding: 5px 10px 5px 20px;
+
+  width: 350px;
+  height: 40px;
+  border: grey solid 2px;
+  display: flex;
+  transition-duration: 0.2s;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+.search:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+input {
+  font-size: 30px;
+  outline: none;
+
+  width: 300px;
+  height: 40px;
+
+  border: none;
+}
+.content {
+  transition-duration: 0.2s;
+  display: flex;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 30px;
+}
+img {
+  cursor: pointer;
+  transition-duration: 0.2s;
+  margin: 30px;
+  width: 300px;
+  height: 200px;
+}
+.input_select {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  width: 100px;
+  height: 30px;
+}
+
+.block-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.button1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+
+  bottom: 20px;
+  left: 45%;
+  background: white;
+}
+.button2 {
+  border: white 2px solid;
+  position: absolute;
+  bottom: -183px;
+  right: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  cursor: pointer;
+}
+.button1:hover,
+.button2:hover {
+  background: rgba(255, 255, 255, 0.28);
+  color: black;
+}
+.button {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.button div {
+
+  cursor: pointer;
+}
+
+.border {
+  border-radius: 40px;
+  width: 40px;
+  margin: 0 30px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: darkgrey;
+}
+.button1 {
+  border: white 2px solid;
+}
+.btn {
+  cursor: pointer;
+}
+.border:hover {
+  background: black;
+  color: grey;
+}
+.roll {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: darkgrey;
+}
+.roll:hover {
+  background: black;
+  color: aliceblue;
+
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.cross-ico {
+  width: 30px !important;
+  height: 30px !important;
+
+
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  transition: none !important;
+ transition-duration: 2s !important;
+  color: #403838;
+}
+.cross-ico:hover {
+  transition-duration: 2s;
+  color: white;
+}
+
+.test {
+  display: flex;
+  position: relative;
+  flex-flow: row;
+  transition-duration: 0.2s;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  width: 100%;
+  height: 990px;
+
+
+}
+.test img {
+
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  transition: 2s ease-in-out;
+  background-size: 100%;
+}
+.bigVideo {
+  width: 107%;
+  height: 98%;
+}
+
+.bigImg:hover {
+  transition-duration: 1s;
+  box-shadow: none;
+}
+.cover {
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 1s;
+  width: 80%;
+  height: 90%;
+  background: rgba(29, 29, 29, 0.61);
+}
+.cover2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(29, 29, 29, 0.61);
+}
+.arrow_slider {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: white;
+  transition-duration: 1s;
+  transition-property: background-color;
+  z-index: 1;
+  top: 50%;
+  left: 30px;
+  cursor: pointer;
+}
+
+.arrow_slider1 {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: white;
+
+  transition-property: background-color;
+  z-index: 1;
+  top: 50%;
+  right: 30px;
+  cursor: pointer;
+}
+.slide-ico {
+  position: relative;
+  width: 600px;
+  height: 40px;
+
+}
+
+.arrow_slider1:hover {
+  background: linear-gradient(
+    -0.25turn,
+    rgba(255, 255, 255, 0.58),
+    rgba(255, 255, 255, 0.44),
+    rgba(255, 255, 255, 0.18),
+    rgba(255, 255, 255, 0.03),
+    rgba(255, 255, 255, 0.009)
+  );
+  color: grey;
+}
+.arrow_slider:hover {
+  background: linear-gradient(
+    0.25turn,
+    rgba(255, 255, 255, 0.58),
+    rgba(255, 255, 255, 0.44),
+    rgba(255, 255, 255, 0.18),
+    rgba(255, 255, 255, 0.03),
+    rgba(255, 255, 255, 0.009)
+  );
+  color: grey;
+}
+select {
+  font-size: 20px;
+  border-radius: 30px;
+  width: 140px;
+  height: 42px;
+  border: none;
+  appearance: none;
+  outline: none;
+  overflow: hidden;
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png")
+    no-repeat 109px;
+  padding-left: 30px;
+}
+
+.select_border {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  margin-left: 10px;
+  transition-duration: 0.2s;
+  border: grey 2px solid;
+}
+.select_border:hover {
+  background: gray;
+  color: white;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background: grey;
+}
+.cont {
+  width: 100%;
+}
+.cont h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+select {
+  transition: 2s ease-in-out;
+}

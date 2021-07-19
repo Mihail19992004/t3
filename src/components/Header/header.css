@@ -1,0 +1,96 @@
+header {
+    position: absolute;
+
+    height: 60px;
+    background: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.git {
+    margin-right: 30px;
+    cursor: pointer;
+
+}
+.git:hover {
+    color: darkblue;
+}
+header h1 {
+
+    cursor: pointer;
+    margin-right: 800px;
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.exit {
+    margin-bottom: 30px !important;
+    font-size: 2.5rem !important;
+    margin-left: 20px;
+}
+.menu {
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: rgba(14, 13, 13, 0.79);
+    transition: 0.2s ease-in-out;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    padding-top: 30px;
+    top: 0;
+    left: 0;
+}
+.menu_border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 10px 0;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.menu_border:hover {
+    border: grey solid 2px;
+    color: black;
+    background: white;
+
+}
+.person-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    width: 150px;
+    height: 150px;
+    background: grey;
+    margin: 30px 0;
+    color: white;
+    border: #000000 solid 2px;
+
+}
+.user-ico {
+    font-size: 6rem !important;
+    background: #2d2c2c;
+}
+.menu a:-webkit-any-link {
+    width: 98%;
+    cursor: pointer;
+    text-decoration: none;
+}
+.menu-ico-header {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+.menu-ico-header:hover {
+    color: #EECFBA;
+}

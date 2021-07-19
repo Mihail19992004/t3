@@ -1,0 +1,18 @@
+.valute-block {
+    position: absolute;
+    margin: 0;
+
+    width: 190px;
+    height: 100px;
+    font-size: 20px;
+    left: 30px;
+    top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2d2c2c;
+}
+.arr-ico {
+    height: 20px !important;
+    width: 20px !important;
+}

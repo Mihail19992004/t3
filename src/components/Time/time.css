@@ -1,0 +1,13 @@
+.date {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 50px;
+    right: 20px;
+
+}
+.date h2 {
+    margin-top: 30px;
+}
